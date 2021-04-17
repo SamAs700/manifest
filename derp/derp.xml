@@ -7,7 +7,7 @@
   <project path="art" name="art" remote="derp" />
   <project path="bionic" name="bionic" remote="derp" />
   <project path="bootable/recovery" name="bootable_recovery" remote="derp" />
-  <project path="manifest" name="manifest" remote="derp" />
+  <project path="manifest" name="manifest" remote="derp" revision="11-aosp" />
 
   <!-- Build -->
   <project path="build/blueprint" name="build_blueprint" remote="derp" />
@@ -54,10 +54,10 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="frameworks_base" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" remote="derp" revision="11-aosp" />
   <project path="frameworks/native" name="frameworks_native" remote="derp" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="derp" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" revision="11-aosp" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="derp" revision="11-aosp" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="derp" />
 
   <!-- GCC -->
@@ -123,7 +123,7 @@
   <project path="packages/apps/OmniJaws" name="packages_apps_OmniJaws" remote="derp" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="derp" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="derp" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="derp" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="derp" revision="11-aosp" />
   <project path="packages/apps/Plugins" name="packages_apps_PotatoPlugins" remote="derp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="derp" />
   <project path="packages/apps/Settings/DerpQuest" name="packages_apps_DerpQuest" remote="derp" />
@@ -135,9 +135,9 @@
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="derp" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="derp" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="derp" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="derp" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="derp" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="derp" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="derp" revision="11-aosp" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="derp" revision="11-aosp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="derp" revision="11-aosp" />
 
   <!-- Platform -->
   <project path="platform_testing" name="platform_testing" remote="derp" />
@@ -167,7 +167,7 @@
   <project path="tools/metalava" name="tools_metalava" remote="derp" />
 
   <!-- Vendor -->
-  <project path="vendor/derp" name="vendor_derp" remote="derp" />
+  <project path="vendor/derp" name="vendor_derp" remote="derp" revision="11-aosp" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="derp" />
   <project path="vendor/gms" name="vendor_gms" remote="derp-gitlab" revision="11" clone-depth="1" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="derp" />
