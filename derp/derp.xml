@@ -150,6 +150,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="derp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="derp" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="prebuilts_tools-derp" remote="derp" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang"
+    remote="github" revision="master" clone-depth="1" />
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="derp" />
@@ -175,6 +177,7 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="derp" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="derp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="derp" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="derp" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="derp" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="derp" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="derp" />
